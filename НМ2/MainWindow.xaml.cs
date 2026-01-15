@@ -7,7 +7,7 @@ namespace НМ2
 {
     public partial class MainWindow : Window
     {
-        //nothing sp
+        
         private NeuralNetwork nn;
         public MainWindow()
         {
