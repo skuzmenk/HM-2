@@ -7,6 +7,8 @@ namespace НМ2
 {
     public partial class MainWindow : Window
     {
+
+
         private NeuralNetwork nn;
         public MainWindow()
         {
@@ -101,7 +103,9 @@ namespace НМ2
             double[] yPred = Predict(inputs);
             double[] target = new double[outputSize];
             for (int i = 0; i < outputSize; i++)
-                target[i] = (i == targetClass) ? 1.0 : 0.0;
+            { 
+                target[i] = (i == targetClass) ? 1.0 : 0.0; 
+            }
 
             for (int i = 0; i < outputSize; i++)
             {
