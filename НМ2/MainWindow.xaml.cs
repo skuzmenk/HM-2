@@ -7,9 +7,7 @@ namespace НМ2
 {
     public partial class MainWindow : Window
     {
-        //i don`t want to add anything
-        //test
-        //what changed??? again checking
+        
         private NeuralNetwork nn;
         public MainWindow()
         {
