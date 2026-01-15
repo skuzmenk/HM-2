@@ -8,7 +8,6 @@ namespace НМ2
     public partial class MainWindow : Window
     {
 
-
         private NeuralNetwork nn;
         public MainWindow()
         {
